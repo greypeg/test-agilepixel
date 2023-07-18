@@ -1,3 +1,22 @@
+
+# How to run
+
+First clone the project:
+
+git clone https://github.com/greypeg/testAssign.git
+
+1.How to run the project:
+
+Commands:
+
+cd test-agile
+
+npx prisma db push
+
+npm run dev
+
+in your browser paste this: http://localhost:3000/
+
 # Create T3 App
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
