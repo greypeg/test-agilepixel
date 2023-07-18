@@ -28,6 +28,6 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.mjs"
-  ],
+, "src/hooks/is-mobile.hook"  ],
   "exclude": ["node_modules"]
 }
