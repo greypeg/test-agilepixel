@@ -16,30 +16,14 @@ export default function Home() {
             <Logo />
           </div>
           <div className="w-fit mb-0 pb-6 flex md:justify-end items-start justify-center flex-col gap-4 md:-rotate-90 md:-bottom-64 md:right-64 md:absolute md:p-0">
-            <span className="text-white bg-none font-normal opacity-70 md:text-8xl text-5xl">
-              HEAR
-            </span>
-            <span className="text-white bg-none font-normal opacity-70 md:text-8xl text-5xl">
-              LATEST
-            </span>
-            <span className="text-white bg-none font-normal opacity-70 md:text-8xl text-5xl">
-              TOUR
-            </span>
-            <span className="text-white bg-none font-normal opacity-70 md:text-8xl text-5xl">
-              SEE
-            </span>
-            <span className="text-white bg-none font-normal opacity-70 md:text-8xl text-5xl">
-              SHOP
-            </span>
-            <span className="text-white bg-none font-normal opacity-70 md:text-8xl text-5xl">
-              WATCH
-            </span>
-            <span className="text-white bg-none font-normal opacity-70 md:text-8xl text-5xl">
-              PERSONAL
-            </span>
-            <span className="text-white bg-none font-normal opacity-70 md:text-8xl text-5xl">
-              AID
-            </span>
+            <SpecialText text="HEAR" />
+            <SpecialText text="LATEST" />
+            <SpecialText text="TOUR" />
+            <SpecialText text="SEE" />
+            <SpecialText text="SHOP" />
+            <SpecialText text="WATCH" />
+            <SpecialText text="PERSONAL" />
+            <SpecialText text="AID" />
           </div>
         </div>
       </div>
